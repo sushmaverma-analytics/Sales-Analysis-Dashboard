@@ -70,10 +70,12 @@ The following data preparation steps were performed:
 A star-schema inspired data model was used:
 
 - Fact Table: Sales Data
-- Dimension Table: Calendar Table
+- Dimension Table: Calendar Table,Dim Customer Type, Dim Region, Dim Payment Method, Dim Category, Dim Sales Rep, Dim Sales Channel.
+- 
 
 Relationships were created using:
-- Sale_Date ↔ Calendar Date
+- Sale_Date ↔ Calendar Date,Dim Customer Type, Dim Region, Dim Payment Method, Dim Category, Dim Sales Rep, Dim Sales Channel.
+- 
 
 ---
 
@@ -120,32 +122,32 @@ Dashboard Features
 
 The dashboard includes:
 
-KPI Cards
-Total Sales
-Total Cost
-Total Profit
-Total Discount
-YoY Growth %
-Product Category Analysis
-Regional Profit Analysis
-Sales Channel Comparison
-Sales Representative Performance
-Customer Type Analysis
-Monthly Financial Summary
-Interactive Filters & Slicers
-Key Business Insights
-Clothing category generated the highest sales revenue.
-Regional sales performance remained balanced across all regions.
-Retail channel showed stronger YoY growth compared to Online sales.
-Returning customers contributed significantly to total revenue.
-Discounts had a noticeable impact on overall profitability.
-Product profitability varied despite similar revenue levels.
-Business Recommendations
-Focus marketing efforts on high-performing product categories.
-Optimize discount strategies to improve profit margins.
-Strengthen customer retention programs for returning customers.
-Expand high-performing sales channels and regions.
-Monitor discount-heavy categories to reduce margin pressure.
+-KPI Cards
+-Total Sales
+-Total Cost
+-Total Profit
+-Total Discount
+-YoY Growth %
+-Product Category Analysis
+-Regional Profit Analysis
+-Sales Channel Comparison
+-Sales Representative Performance
+-Customer Type Analysis
+-Monthly Financial Summary
+-Interactive Filters & Slicers
+-Key Business Insights
+-Clothing category generated the highest sales revenue.
+-Regional sales performance remained balanced across all regions.
+-Retail channel showed stronger YoY growth compared to Online sales.
+-Returning customers contributed significantly to total revenue.
+-Discounts had a noticeable impact on overall profitability.
+-Product profitability varied despite similar revenue levels.
+-Business Recommendations
+-Focus marketing efforts on high-performing product categories.
+-Optimize discount strategies to improve profit margins.
+-Strengthen customer retention programs for returning customers.
+-Expand high-performing sales channels and regions.
+-Monitor discount-heavy categories to reduce margin pressure.
 Conclusion
 
 This project demonstrates how Power BI can be used to transform raw sales data into actionable business insights. Through DAX calculations, interactive dashboards, and storytelling techniques, the analysis helps identify growth opportunities, profitability trends, and customer behavior patterns.
